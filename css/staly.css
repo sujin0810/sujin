@@ -1,0 +1,149 @@
+.top-section{
+  /* background-color: #ddd; */
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1920px;
+  /* overflow: hidden; */
+}
+.top-bar{
+  background-color: #fff;
+  opacity: 95%;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  position: 0;
+  left: 0; right: 0;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+.top-bar > .logo-box {
+  /* background-color: #ddd; */
+  width: 162px;
+  height: 64px;
+  /* position: absolute; */
+}
+
+.top-bar > .logo-box .logo{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.top-bar > .logo-box .logo::before{
+  height: 100%;
+  content: "";
+  display: block;
+  background-image: url(../img/LEE\ SU\ JIN.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 162px;
+  height: 20px;
+}
+.top-bar > .menu-box {
+  margin: 0 auto;
+  margin-left: 450px;
+}
+
+.top-bar > .menu-box > ul {
+  display: flex;
+  height: 100%;
+  gap: 40px;
+}
+
+.top-bar > .menu-box > ul > li{
+  /* border: 1px solid orange; */
+  width: 150px;
+  list-style: none;
+  margin : 0;
+}
+.top-bar> .menu-box > ul > li:hover >a{
+  color: #9B9B9B;
+}
+.top-bar > .menu-box > ul > li >a{
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 100%;
+  font-size: 19px;
+  font-weight: 600;
+
+}
+.logo-bg-box {
+  background-color: #fff;
+  width: 100%;
+  height: 64px;
+  display: block;
+  overflow: hidden;
+}
+
+section {
+  width: 100%;
+  height: 1080px;
+  display: block;
+  overflow: hidden;
+}
+
+.con12 {
+  position: relative; /* 🔥 기준 잡기 */
+}
+
+.con12 > img {
+  width: 100%;
+  height: 1080px;
+  display: block;
+  overflow: hidden;
+}
+
+.con12 > .cheers-logo {
+  top: 275px;
+  left: 1010px;
+  position: absolute;
+  width: 269px;
+  height: 56px;
+}
+
+.con12 > .cheers-logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.con14{
+  position: relative;
+}
+.con14 > img {
+  width: 100%;
+  height: 1080px;
+  display: block;
+  overflow: hidden;
+}
+.con14 > .hyunKV {
+  top: 212px;
+  left: 795px;
+  position: absolute;
+  width: 925px;
+  height: 465px;
+}
+.con14 > .hyunKV > img{
+  width: 99%;
+  height: 99%;
+  /* overflow: hidden; */
+  /* width: 923px;
+  height: 480px; */
+  display: block;
+  justify-content: center;
+}
