@@ -99,8 +99,6 @@ section {
   position: relative;
 }
 .con12 > img{
-  width: 100%;
-  height: 1080px;
   display: block;
   background-image: url(../img/cheers1.jpg);
   background-repeat: no-repeat;
@@ -112,10 +110,7 @@ section {
   position: relative;
 }
 .con14 > img{
-  width: 100%;
-  height: 1080px;
   display: block;
-  /* background-image: url(../img/hyunKV.gif); */
   background-image: url(../img/hyundai1.jpg);
   background-repeat: no-repeat;
   background-position: center;
